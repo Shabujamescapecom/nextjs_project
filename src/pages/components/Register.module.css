@@ -1,0 +1,102 @@
+
+
+.container {
+    max-width: 1038px;
+    margin: 0 auto;
+    height: auto;
+    padding: 20px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .headingDiv{
+    margin-bottom: 20px;
+  }
+  .heading {
+    font-size: 40px ;
+    text-align: left;
+  }
+  .heading span{
+    font-weight: 700;
+  }
+  .gridContainer{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+  }
+  .formGroup {
+    margin-bottom: 15px;
+  }
+
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  .dateRangeContainer{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    justify-content: space-between;
+    background-color: #ccc;
+  }
+  .startInput,.endInput{
+    border: none;
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #ccc;
+    outline: none;
+  }
+  .input,
+  .textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #ccc;
+    outline: none;
+  }
+  
+  .textarea {
+    resize: vertical;
+  }
+  .butDiv{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+  .iconDiv{
+    width: 25px;
+    height: auto;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+  }
+  .button {
+    padding: 10px 40px;
+    background-color: #22225a;
+    color: white;
+    gap: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+  
+  .message {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+  }
+  @media screen and (max-width: 642px){
+    .heading{
+      font-size: 27px;
+    }
+  }
